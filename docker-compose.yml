@@ -1,0 +1,14 @@
+mongo:
+ image: javi/mongodb
+ container_name: mongo
+ ports: 
+  - 27027:27017
+  - 28017:28017
+nodejs:
+ image: javi/nodejs
+ container_name: nodejs
+ links:
+  - mongo
+ ports:
+  - 2000:2000
+

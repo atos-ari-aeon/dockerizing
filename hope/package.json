@@ -1,0 +1,18 @@
+{
+  "name": "hope-fare-calc",
+  "version": "0.1.0",
+  "description": "Fare Calculation module for the HoPE platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hope",
+    "fare"
+  ],
+  "author": "Javier Garcia Hernandez",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
